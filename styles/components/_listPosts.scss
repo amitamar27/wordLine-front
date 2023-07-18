@@ -1,0 +1,25 @@
+.list-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: center;
+}
+
+.posts-list-item {
+        flex: 1 0 200px;
+        max-width: 200px;
+}
+
+@media (max-width: 768px) {
+        .posts-list-item {
+                flex: 1 0 150px;
+                max-width: 150px;
+        }
+}
+
+@media (max-width: 480px) {
+        .posts-list-item {
+                flex: 1 0 100px;
+                max-width: 100px;
+        }
+}

@@ -17,12 +17,7 @@ const nextConfig = {
         domains: ["s.gravatar.com"]
     },
     env: {
-        siteTitle: "Your Company",
-        siteDescription: "Your company description.",
-        siteKeywords: "your company keywords",
-        siteUrl: "You site url",
-        siteImagePreviewUrl: "/images/preview.jpeg",
-        twitterHandle: "@your_handle"
+        
     },
     headers() {
         return [

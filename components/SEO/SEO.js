@@ -1,4 +1,6 @@
 import Head from "next/head";
+// import Document, { Html, Head, Main, NextScript } from 'next/document';
+
 
 const SEO = ({ title, description, keywords }) => {
     // Cuztomize Meta Properties
