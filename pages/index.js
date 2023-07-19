@@ -9,17 +9,11 @@ export default function Home({
     content
 }) {
 
-    return ( <
-        Layout className = "" >
-        <
-        SEO title = "Post App 🚀"
-        description = "a post management app" /
-        >
-        <
-        h2 > {
-            content.headline
-        } < /h2> <
-        /Layout>
+    return ( 
+        <Layout className = "" >
+        <SEO title = "Post App 🚀"
+        description = "a post management app" />
+        <h2 > {content.headline} </h2> </Layout>
     );
 }
 
