@@ -1,23 +1,33 @@
-import { Layout } from "@components/Layout";
+import {
+    Layout
+} from "@components/Layout";
 import SEO from "@components/SEO/SEO";
-import { postsService } from "services/postsService";
+import {
+    postsService
+} from "services/postsService";
+export default function Home({
+    content
+}) {
 
-export default function Home({content}) {
-
-    return (
-        <Layout className="">
-            <SEO
-                title="Post App 🚀"
-                description="a post management app"
-            />
-            <h2 dangerouslySetInnerHTML={{ __html: content.headline }}/>
-        </Layout>
+    return ( <
+        Layout className = "" >
+        <
+        SEO title = "Post App 🚀"
+        description = "a post management app" /
+        >
+        <
+        h2 > {
+            content.headline
+        } < /h2> <
+        /Layout>
     );
 }
 
 
 export async function getServerSideProps(context) {
-    const { req } = context;
+    const {
+        req
+    } = context;
     const content = await postsService.fetchHomeData();
     // console.log(homeContent);
     return {
