@@ -1,12 +1,12 @@
 {
-    "name": "nutritrack",
+    "name": "post",
     "version": "0.1.0",
     "description": "Nutritrack - A website developed by Avenue Labs, using the Avenue Starter.",
     "main": "index.js",
     "private": true,
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/christian-luntok/nutritrack.git"
+        "url": "git+https://github.com/amitamar27/wordline.git"
     },
     "keywords": [
         "next",
