@@ -1,7 +1,7 @@
 {
     "name": "post",
     "version": "0.1.0",
-    "description": "Nutritrack - A website developed by Avenue Labs, using the Avenue Starter.",
+    "description": "posts app",
     "main": "index.js",
     "private": true,
     "repository": {
@@ -17,7 +17,7 @@
         "tailwindcss",
         "tailwind"
     ],
-    "author": "Christian Luntok",
+    "author": "amit amar",
     "homepage": "https://cjluntok.com/",
     "scripts": {
         "dev": "next dev",
